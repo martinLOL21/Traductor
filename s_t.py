@@ -15,11 +15,11 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("TRADUCTOR.")
+st.title("Gato multiligue que escucha")
 st.subheader("Escucho lo que quieres traducir.")
 
 
-image = Image.open('OIG7.jpg')
+image = Image.open('Escucho.jpg')
 
 st.image(image,width=300)
 with st.sidebar:
